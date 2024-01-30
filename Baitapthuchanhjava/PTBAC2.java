@@ -16,6 +16,10 @@ public class PTBAC2 {
         benta = Math.pow(b,2) - 4*(a*c);
         X=-b/(2*a);
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> 30cc7d3f3169f5fc0d30f494cb4924ed7bb1a448
         if(benta < 0 ){
             System.out.print("Phuong tring vo nghiem");
         } else if(benta == 0) {
