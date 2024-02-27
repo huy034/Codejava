@@ -1,3 +1,5 @@
+package BTjava.Lap2;
+
 import java.util.Scanner;
 
 public class BT1 {
