@@ -1,4 +1,4 @@
-package BTjava.Baitapthuchanhjava;
+package BTjava.Baitapthuchanhjava.src;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public static void main(String[] args) {
     int minNumber = firstNumber;
     if (firstNumber > secondNumber) 
           minNumber = secondNumber;
-      System.out.println("So nho nhat trong 2 so " + firstNumber + " va "+ secondNumber+ "la " + minNumber);
+      System.out.println("So nho nhat trong 2 so " + firstNumber + " va "+ secondNumber+ " la " + minNumber);
       sc.close();
 
 }

@@ -1,4 +1,4 @@
-package BTjava.Baitapthuchanhjava;
+package BTjava.Baitapthuchanhjava.src;
 
 import java.util.Scanner;
 

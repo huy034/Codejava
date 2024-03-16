@@ -1,4 +1,4 @@
-package BTjava.Baitapthuchanhjava;
+package BTjava.Baitapthuchanhjava.src;
 
 public class slide55 {
     public static void main(String[] args) {
