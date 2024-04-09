@@ -1,6 +1,6 @@
 package BTjava.Baitapthuchanhjava;
 
-public class mainperson {
+public class appPerson {
 
     public static void main(String[] args) {
         person ps = new person();

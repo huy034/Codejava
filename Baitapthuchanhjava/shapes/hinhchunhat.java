@@ -2,11 +2,10 @@ package BTjava.Baitapthuchanhjava.shapes;
 
 import java.util.Scanner;
 
-public class hinhchunhat {
+public class hinhchunhat extends hinhhoc{
     float dai;
     float rong;
-    float cv;
-    float dt;
+
 
     public void nhapChieuDai(){
         Scanner sc =new Scanner(System.in);
@@ -21,18 +20,11 @@ public class hinhchunhat {
     }
 
     public void tinhChuVi(){
-        cv = 2*(dai +rong);
+        ChuVi = 2*(dai +rong);
     }
 
     public void tinhDienTich(){
-        dt = dai * rong;
+        DienTich = dai * rong;
     }
 
-    public void incv(){
-        System.out.println("Chu vi hcn: " +cv);
-    }
-
-    public void indt(){
-        System.out.println("Dien tich hcn: "+dt);
-    }
 }

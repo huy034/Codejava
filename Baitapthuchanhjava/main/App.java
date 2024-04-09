@@ -22,7 +22,7 @@ import BTjava.Baitapthuchanhjava.shapes.hinhchunhat;
             hcn.nhapChieuRong();
             hcn.tinhChuVi();
             hcn.tinhDienTich();
-            hcn.incv();
-            hcn.indt();
+            hcn.inChuVI();
+            hcn.inDienTich();
         }
     }
