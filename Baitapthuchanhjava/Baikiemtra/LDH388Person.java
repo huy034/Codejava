@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class LDH388Person {
@@ -17,6 +18,10 @@ public class LDH388Person {
         System.out.println("Ten la " + ten);
         System.out.println("Tuoi la " + tuoi);
         System.out.println("ngay sinh la " + ngaysinh);
+    }
+
+    public void themmoi (){
+        ArrayList<LDH388Person> pr = LDH388Person();
     }
     }
 
