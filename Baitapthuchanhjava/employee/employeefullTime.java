@@ -10,7 +10,7 @@ public class employeefullTime extends employee {
     }
 
     public void NhapLuongFullTime() {
-        System.out.println("Nhap Luong theo gio:");
+        System.out.println("Nhap Luong theo ngay:");
         Luong = sc.nextFloat();
     }
 

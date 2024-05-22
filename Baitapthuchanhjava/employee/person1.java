@@ -9,9 +9,9 @@ public class person1 {
 
     public void NhapThongTin() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap  TEN:");
+        System.out.print("Nhap TEN:");
         Ten = sc.nextLine();
-        System.out.print("Nhap  NGAY SINH:");
+        System.out.print("Nhap NGAY SINH:");
         NgaySinh = sc.nextLine();
         System.out.print("Nhap DIA CHI:");
         DiaChi = sc.nextLine();

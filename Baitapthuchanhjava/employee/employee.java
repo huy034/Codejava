@@ -13,11 +13,13 @@ public class employee extends person1 {
 
     public void NhapThongTin(String MaNhanVien) {
         super.NhapThongTin();
+        System.out.print("Nhap MaNhanVien:");
+        MaNhanVien = sc.nextLine();
 
     }
 
     public int NhapNgayBD() {
-        System.out.println("Nhap Nhap Ngay Bat dau lam :");
+        System.out.println("Nhap Ngay Bat dau lam :");
         do
             NgayBD = sc.nextInt();
         while (NgayBD < 0 && NgayBD > 31);
@@ -26,7 +28,7 @@ public class employee extends person1 {
     }
 
     public int NhapNgayKT() {
-        System.out.println("Nhap Nhap Ngay Ket thuc lam :");
+        System.out.println("Nhap Ngay Ket thuc lam :");
         do
         NgayKT = sc.nextInt();
         while (NgayKT < 0 && NgayKT > 31);
