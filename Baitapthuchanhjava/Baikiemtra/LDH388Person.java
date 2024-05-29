@@ -21,7 +21,8 @@ public class LDH388Person {
     }
 
     public void themmoi (){
-        ArrayList<LDH388Person> pr = LDH388Person();
+        ArrayList<LDH388Person> pr = new ArrayList<>();
+        
     }
     }
 
